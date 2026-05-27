@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="addstudent.html">Add Student</a>
+        <a href="viewstudent.html">View Student</a>
+        <a href="editstudent.html">Edit student</a>
+        <a href="logout.html">Logout</a>
+    </nav>
+    <form action="viewstudent.html">
+        <h1>Please enter the fields below</h1>
+        <label for="id">Student id</label>
+        <input 
+            type="text" 
+            name="id" 
+            minlength="1" 
+            required
+        >
+        <br><br>
+        <label for="name">Student Name</label>
+        <input 
+            type="text" 
+            name="name" 
+            minlength="4" 
+            required
+        >
+        <br><br>
+        <label for="branch">Branch</label>
+        <input 
+            type="text" 
+            name="branch" 
+            minlength="1" 
+            required
+        >
+        <br><br>
+        <label for="cgpa">CGPA</label>
+        <input 
+            type="number" 
+            name="cgpa" 
+            minlength="1" 
+            required
+        >
+        <br><br>
+        <button type="submit">update</button>
+    </form>
+</body>
+</html>
