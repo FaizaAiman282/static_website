@@ -1,0 +1,35 @@
+nav {
+            background-color: black;
+            padding-top:20px;
+            height:50px;
+            width:100vw;
+            text-align: center;
+        }
+       nav a{
+            color:white;
+            text-align: center;
+            text-decoration: none;
+            padding:10px;
+            font-size: 20px;
+        }
+        nav a:hover{
+            color: yellow;
+        }
+        body{
+            text-align: center;
+            background-color: rgb(229, 244, 240);
+        }
+        th,td{
+            padding-right:20px;
+        }
+        table{
+            border-width:2px ;
+            border-style: double;
+            
+            border: "1";
+        }
+        div{
+            display: flex;
+            justify-content: center;
+        }
+    
