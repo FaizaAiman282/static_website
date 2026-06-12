@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "username": "joss",
+      "password": "123456",
+      "id": 1
+    },
+    {
+      "username": "Gawin",
+      "password": "123123",
+      "id": 2
+    }
+  ],
+  "students": [
+    {
+      "id": "1",
+      "name": "student1",
+      "branch": "CSE",
+      "cgpa": "9.5"
+    },
+    {
+      "id": "2",
+      "name": "student2",
+      "branch": "CSE",
+      "cgpa": "9.4"
+    },
+    {
+      "id": "3",
+      "name": "student3",
+      "branch": "CSE",
+      "cgpa": "9.2"
+    },
+    {
+      "id": "4",
+      "name": "student4",
+      "branch": "CSE",
+      "cgpa": "9.1"
+    },
+    {
+      "id": "5",
+      "name": "student5",
+      "branch": "CSE",
+      "cgpa": "8.9"
+    }
+  ]
+}
